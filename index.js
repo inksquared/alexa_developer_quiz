@@ -21,19 +21,19 @@
  */
 var questions = [
     {
-        "What is the attribute on img tag to specify the image URL?": [
-            "src",
+        "What is the attribute on image tag to specify the image URL?": [
+            "SRC",
             "link",
-            "rel",
-            "href"
+            "REL",
+            "H Ref"
         ]
     },
     {
-        "Which of the following in an inline element?": [
-            "img",
-            "div",
-            "p",
-            "li"
+        "Which of the following is an inline element?": [
+            "IMG",
+            "U L",
+            "P",
+            "L I"
         ]
     },
     {
@@ -41,7 +41,7 @@ var questions = [
             "link",
             "style",
             "script",
-            "css"
+            "CSS"
         ]
     },
     {
@@ -88,15 +88,15 @@ var questions = [
         "Which HTML tag is used to define an internal style sheet?": [
             "style",
             "script",
-            "css",
-            "html"
+            "CSS",
+            "HTML"
         ]
     },
     {
         "Which property is used to change the background color?": [
             "background-color",
             "color",
-            "bgcolor",
+            "B G color",
             "back-color"
         ]
     },
@@ -104,7 +104,7 @@ var questions = [
         "Which CSS property is used to change the text color of an element?": [
             "color",
             "text-color",
-            "fgcolor",
+            "F G color",
             "font-color"
         ]
     },
@@ -143,7 +143,7 @@ var questions = [
     {
         "What is the correct HTML5 element for playing audio files?": [
             "audio",
-            "mp3",
+            "MP3",
             "sound",
             "noise"
         ]
@@ -151,9 +151,9 @@ var questions = [
     {
         "Which attribute for script elements is no longer required in HTML5?": [
             "type",
-            "href",
-            "rel",
-            "src"
+            "H Ref",
+            "REL",
+            "SRC"
         ]
     },
     {
@@ -169,12 +169,13 @@ var questions = [
             "HTML attributes",
             "Style attributes",
             "Event attributes",
+            "Not attributes"
         ]
     },
     {
         "The canvas element in HTML5 is used to": [
             "draw graphics",
-            "manipulate data in MySQL",
+            "manipulate data in My SQL",
             "display database records",
             "create draggable elements"
         ]
@@ -306,7 +307,7 @@ var CARD_TITLE = "Developer Games"; // Be sure to change this for your skill.
 
 function getWelcomeResponse(callback) {
     var sessionAttributes = {},
-        speechOutput = "Developer Games. I will ask you " + GAME_LENGTH.toString()
+        speechOutput = "Would you like to play a developer game? I will ask you " + GAME_LENGTH.toString()
             + " questions, try to get as many right as you can. Just say the number of the answer. Let's begin. ",
         shouldEndSession = false,
 
