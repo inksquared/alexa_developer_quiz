@@ -21,77 +21,67 @@
  */
 var questions = [
     {
-        "Reindeer have very thick coats, how many hairs per square inch do they have?": [
-            "13,000",
-            "1,200",
-            "5,000",
-            "700",
-            "1,000",
-            "120,000"
+        "What is the attribute on img tag to specify the image URL?": [
+            "link",
+            "rel",
+            "src",
+            "href"
         ]
     },
     {
-        "The 1964 classic Rudolph The Red Nosed Reindeer was filmed in:": [
-            "Japan",
-            "United States",
-            "Finland",
-            "Germany"
+        "Which of the following in an inline element?": [
+            "div",
+            "img",
+            "p",
+            "li"
         ]
     },
     {
-        "Santas reindeer are cared for by one of the Christmas elves, what is his name?": [
-            "Wunorse Openslae",
-            "Alabaster Snowball",
-            "Bushy Evergreen",
-            "Pepper Minstix"
+        "What is the tag that is used to load and external stylesheet?": [
+            "link",
+            "style",
+            "script",
+            "css"
         ]
     },
     {
-        "If all of Santas reindeer had antlers while pulling his Christmas sleigh, they would all be:": [
-            "Girls",
-            "Boys",
-            "Girls and boys",
-            "No way to tell"
+        "Which property is used to flow text around an image?": [
+            "display",
+            "float",
+            "wrap",
+            "position"
         ]
     },
     {
-        "What do Reindeer eat?": [
-            "Lichen",
-            "Grasses",
-            "Leaves",
-            "Berries"
+        "Which element attribute is used to add inline styles?": [
+            "css",
+            "style",
+            "styles",
+            "scss"
         ]
     },
     {
-        "What of the following is not true?": [
-            "Caribou live on all continents",
-            "Both reindeer and Caribou are the same species",
-            "Caribou are bigger than reindeer",
-            "Reindeer live in Scandinavia and Russia"
+        "Which of the following is not a valid value for 'float' property?": [
+            "left",
+            "right",
+            "top",
+            "inherit"
         ]
     },
     {
-        "In what year did Rudolph make his television debut?": [
-            "1964",
-            "1979",
-            "2000",
-            "1956"
+        "What does CSS stand for?": [
+            "Cascading Style Sheets",
+            "Creative Style Sheets",
+            "Colorful Style Sheets",
+            "Computer Style Sheets"
         ]
     },
     {
-        "Who was the voice of Rudolph in the 1964 classic?": [
-            "Billie Mae Richards",
-            "Burl Ives",
-            "Paul Soles",
-            "Lady Gaga"
-        ]
-    },
-    {
-        "In 1939 what retailer used the story of Rudolph the Red Nose Reindeer?": [
-            "Montgomery Ward",
-            "Sears",
-            "Macys",
-            "Kmart"
+        "Where in an HTML document is the correct place to refer to an external style sheet?": [
+            "In the head section",
+            "In the body section",
+            "At the end of the document",
+            "In the footer section"
         ]
     },
     {
