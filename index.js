@@ -22,16 +22,16 @@
 var questions = [
     {
         "What is the attribute on img tag to specify the image URL?": [
+            "src",
             "link",
             "rel",
-            "src",
             "href"
         ]
     },
     {
         "Which of the following in an inline element?": [
-            "div",
             "img",
+            "div",
             "p",
             "li"
         ]
@@ -46,25 +46,25 @@ var questions = [
     },
     {
         "Which property is used to flow text around an image?": [
-            "display",
             "float",
+            "display",
             "wrap",
             "position"
         ]
     },
     {
         "Which element attribute is used to add inline styles?": [
-            "css",
             "style",
+            "css",
             "styles",
             "scss"
         ]
     },
     {
         "Which of the following is not a valid value for 'float' property?": [
+            "top",
             "left",
             "right",
-            "top",
             "inherit"
         ]
     },
@@ -85,171 +85,98 @@ var questions = [
         ]
     },
     {
-        "Santa's reindeer named Donner was originally named what?": [
-            "Dunder",
-            "Donny",
-            "Dweedle",
-            "Dreamy"
+        "Which HTML tag is used to define an internal style sheet?": [
+            "style",
+            "script",
+            "css",
+            "html"
         ]
     },
     {
-        "Who invented the story of Rudolph?": [
-            "Robert May",
-            "Johnny Marks",
-            "Santa",
-            "J.K. Rowling"
+        "Which property is used to change the background color?": [
+            "background-color",
+            "color",
+            "bgcolor",
+            "back-color"
         ]
     },
     {
-        "In what location will you not find reindeer?": [
-            "North Pole",
-            "Lapland",
-            "Korvatunturi mountain",
-            "Finland"
+        "Which CSS property is used to change the text color of an element?": [
+            "color",
+            "text-color",
+            "fgcolor",
+            "font-color"
         ]
     },
     {
-        "What Makes Santa's Reindeer Fly?": [
-            "Magical Reindeer Dust",
-            "Fusion",
-            "Amanita muscaria",
-            "Elves"
+        "Which CSS property controls the text size?": [
+            "font-size",
+            "font-style",
+            "text-size",
+            "text-style"
         ]
     },
     {
-        "Including Rudolph, how many reindeer hooves are there?": [
-            "36",
-            "24",
-            "16",
-            "8"
+        "Which HTML5 element is used to specify a footer for a document or section?": [
+            "footer",
+            "bottom",
+            "section",
+            "end"
         ]
     },
     {
-        "Santa only has one female reindeer. Which one is it?": [
-            "Vixen",
-            "Clarice",
-            "Cupid",
-            "Cupid"
+        "In HTML5, onblur and onfocus are": [
+            "Event attributes",
+            "HTML elements",
+            "Style attributes",
+            "DOM elements"
         ]
     },
     {
-        "In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?": [
-            "Sam",
-            "Frosty",
-            "Burl",
-            "Snowy"
+        "What is the correct HTML5 element for playing video files?": [
+            "video",
+            "movie",
+            "media",
+            "film"
         ]
     },
     {
-        "What was Rudolph's father's name?": [
-            "Donner",
-            "Dasher",
-            "Blixen",
-            "Comet"
+        "What is the correct HTML5 element for playing audio files?": [
+            "audio",
+            "mp3",
+            "sound",
+            "noise"
         ]
     },
     {
-        "In the 1964 movie, What was the name of the coach of the Reindeer Games?": [
-            "Comet",
-            "Blixen",
-            "Donner",
-            "Dasher"
+        "Which attribute for script elements is no longer required in HTML5?": [
+            "type",
+            "href",
+            "rel",
+            "src"
         ]
     },
     {
-        "In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?": [
-            "Fireball",
-            "Clarice",
-            "Jumper",
-            "Vixen"
+        "The new HTML5 global attribute, 'contenteditable' is used to:": [
+            "Specify whether the content of an element should be editable or not",
+            "Update content from the server",
+            "Specifies a context menu for an element. The menu appears when a user right-clicks on the element",
+            "Return the position of the first found occurrence of content inside a string"
         ]
     },
     {
-        "In the 1964 movie, How did Donner, Rudolph's father, try to hide Rudolph's nose?": [
-            "Black mud",
-            "Bag",
-            "Pillow case",
-            "Sock"
+        "In HTML5, contextmenu and spellcheck are": [
+            "HTML attributes",
+            "Style attributes",
+            "Event attributes",
         ]
     },
     {
-        "In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?": [
-            "Dentist",
-            "Reindeer",
-            "Toy maker",
-            "Candlestick maker"
-        ]
-    },
-    {
-        "In the 1964 movie,what was the Bumble's one weakness?": [
-            "Could not swim",
-            "Always hungry",
-            "Candy canes",
-            "Cross eyed"
-        ]
-    },
-    {
-        "In the 1964 movie, what is Yukon Cornelius really in search of?": [
-            "Peppermint",
-            "Gold",
-            "India",
-            "Polar Bears"
-        ]
-    },
-    {
-        "In the 1964 movie, why is the train on the Island of Misfit Toys?": [
-            "Square wheels",
-            "No Engine",
-            "Paint does not match",
-            "It does not toot"
-        ]
-    },
-    {
-        "In the 1964 movie, what is the name of the Jack in the Box?": [
-            "Charlie",
-            "Sam",
-            "Billy",
-            "Jack"
-        ]
-    },
-    {
-        "In the 1964 movie, why did Santa Claus almost cancel Christmas?": [
-            "Storm",
-            "No snow",
-            "No toys",
-            "The Reindeer were sick"
-        ]
-    },
-    {
-        "In the 1964 movie, what animal noise did the elf make to distract the Bumble?": [
-            "Oink",
-            "Growl",
-            "Bark",
-            "Meow"
-        ]
-    },
-    {
-        "In the 1964 movie, what is the name of the prospector?": [
-            "Yukon Cornelius",
-            "Slider Sam",
-            "Bumble",
-            "Jack"
-        ]
-    },
-    {
-        "How far do reindeer travel when they migrate?": [
-            "3000 miles",
-            "700 miles",
-            "500 miles",
-            "0 miles"
-        ]
-    },
-    {
-        "How fast can a reindeer run?": [
-            "48 miles per hour",
-            "17 miles per hour",
-            "19 miles per hour",
-            "14 miles per hour"
+        "The canvas element in HTML5 is used to": [
+            "draw graphics",
+            "manipulate data in MySQL",
+            "display database records",
+            "create draggable elements"
         ]
     }
 ];
